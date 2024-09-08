@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 body{
     margin: 0;
-    background-color: #282828;
+    background-color: #161616;
 }
 .head{
     background-color: black;
@@ -181,9 +181,89 @@ body{
     .icons{
         display: flex;
         flex-wrap: wrap;
+        height: 150px;
     }
     .icons div {
-        width: 100px;
+        width: 150px;
+    }.topshelf img, .collec img, .exprs img, .emi img , .deals img , .weekdeal img , .ewaste img{
+        width: 100%;
     }
-    
+    .apple{
+        grid-area: apple;
+    }
+    .boss{
+        grid-area: boss;
+    }
+    .cromab{
+        grid-area: cromab;
+    }
+    .dell{
+        grid-area: dell;
+    }
+    .brand{
+        margin:0;
+        display: grid;
+        grid-template-areas: 'apple boss cromab dell';
+        gap: 10px;
+        grid-template-rows: 200px;
+    }
+    .apple img , .boss img, .cromab img, .dell img{
+        width: 100%;
+        border-radius: 9px;
+    }
+    .end{
+        background-color: rgb(28, 28, 28);
+        height: 400px;
+    }
+    .endgrid{
+        color: white;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        margin-top: 20px;
+        padding: 30px;
+        
+    }
+    .endgrid p{
+        font-size:14px;
+        font-family: sans-serif;
+    }
+    .link1{
+        display: flex;
+        margin: auto;
+        width: 300px;
+        /* flex: auto; */
+        /* border-left: 1px solid white; */
+        border-right: 1px solid white;
+    }
+    .link1 .r1 {
+        margin: auto;
+    }
+    .link2{
+        display: flex;
+        /* margin: auto; */
+        width: 300px;
+        margin-left: none;
+        margin-right: 100px;
+        
+    }
+    .link2 .r2 {
+        margin: auto;
+        /* margin-top: none;
+        margin-left: none; */
+    }
+    .contact{
+        width: 300px;
+        border-right: 1px solid white;
+    }
+    .link1  div p:hover{
+       color: aquamarine;
+    }
+    .link2  div p:hover{
+        color: aquamarine;
+     }
+     .ebox{
+        /* width: 200px; */
+     }
+
 
