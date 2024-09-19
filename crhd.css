@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+
+}
+.head{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    color: white;
+    padding: 10px;
+}
+.hdcnt{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.crma{
+    flex: 20%;
+    font-size: x-large;
+    margin: 0px;
+    padding-top: 10px;
+}
+.crma h2{
+    margin: 0;
+}
+.menu{
+    flex: 10%;
+    padding-top: 24px;
+    font-size: large;
+}
+.search{
+    flex: 45%;
+    padding-top: 15px;
+    padding-bottom: 9px;
+}
+.search input{
+    width: 480px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 18px;
+}
+.search form{
+    position: relative;
+
+}
+.search form i{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.456);
+    right:70px;
+    top: 8px;
+    font-size:x-large;
+}
+.loc{
+    flex: 15%;
+    padding-top: 24px;
+}
+.prct{
+    display: flex;
+    flex: 10%;
+    padding-top: 24px;
+    font-size: large;
+}
+.prfl{
+    flex: 50%;
+}
+.cart{
+    flex: 50%;
+}
